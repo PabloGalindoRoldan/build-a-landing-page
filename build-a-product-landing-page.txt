@@ -1,0 +1,380 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport", content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Ibarra+Real+Nova&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/> 
+    <title>La ballena Lila</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/128/000000/external-whale-animal-flaticons-lineal-color-flat-icons-2.png" alt="icon" id="header-img">
+        <h1 id="titulo_logo">La Ballena Lila</h1>
+      </div>
+      <nav id="nav-bar">
+        <ul class="nav-bar">
+          <li class="nav-bar__item"><a href="#header" class="nav-link">Tipos</a></li>
+          <li class="nav-bar__item"><a href="#main" class="nav-link">Video</a></li>
+          <li class="nav-bar__item"><a href="#footer" class="nav-link">Precios</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="encabezado">
+        <h2 class="encabezado__text">Juguetes Infantiles Espectaculares</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post" target="_blank">
+          <input name="email" type="email" id="email" placeholder="Ingresa tu dirección de Email">
+          <input type="submit" value="Empezar" id="submit">
+        </form>
+      </section>
+      <section class="sectiontipos" id="sectiontipos">
+        <div class="contenedor">
+          <div class="sectiontipos__contenedor__icon">
+            <img src="https://img.icons8.com/dusk/64/000000/measurement-tool.png" alt="icon" class="sectiontipos__icon">
+          </div>
+          <div class="sectiontipos__contenedor__text">
+          <h2 class="sectiontipos__contenedor__text__subtitulo">Materiales premium</h2>
+          <p> Usamos la mejor calidad de maderas y pinturas para que tu bebé juegue sin problemas y los juguetes duren mucho tiempo!</p>
+        </div>
+        </div>
+        <div class="contenedor">
+          <div class="sectiontipos__contenedor__icon">
+            <img src="https://img.icons8.com/dusk/64/000000/fork-lift.png" alt="icon">
+          </div>
+          <div class="sectiontipos__contenedor__text">
+            <h2 class="sectiontipos__contenedor__text__subtitulo">Envios a todo el pais</h2>
+            <p>Cuando nos hagas el pedido, dentro de las 24hs. despachamos tu juguete a todo el país por correo Andreani y te llega dentro de los 5 días habiles. El costo de envío se cotiza por separado.</p>
+          </div>
+        </div>
+        <div class="contenedor">
+          <div class="sectiontipos__contenedor__icon">
+            <img src="https://img.icons8.com/dusk/64/000000/charge-battery.png" alt="icon">
+          </div>
+          <div class="sectiontipos__contenedor__text">
+          <h2 class="sectiontipos__contenedor__text__subtitulo">Garantia de calidad</h2>
+          <p>Nos aseguramos que tu juguete este en perfectas condiciones antes de despacharlo para que no tengas ningun problema con su uso.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sectionlist" id="sectionvideo">
+        <iframe id="video" src="https://www.youtube.com/embed/wrO6ZrB8sY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section class="sectionlist" id="sectionprecios">
+        <article>
+          <h3>Rompecabezas de madera</h3>
+          <h4>$600</h4>
+          <ul>
+            <li>Animalitos de la granja</li>
+            <li>Animalitos de la selva</li>
+            <li>Trabajadores</li>
+            <li>Vehiculos y edificios</li>
+          </ul>
+          <form action="" method="post" target="_blank">
+            <input type="submit" name="submitrompecabezas" id="submitrompecabezas" class="sectionlist__submit" value="elegir">
+          </form>
+        </article>
+        <article>
+          <h3>Sets de piezas</h3>
+          <h4>$1000</h4>
+          <ul>
+            <li>Herramientas</li>
+            <li>Articulos de Cocina</li>
+            <li>Articulos de Jardineria</li>
+            <li>Articulos de Peluqueria</li>
+          </ul>
+          <form action="" method="post" target="_blank">
+            <input type="submit" name="submitsetdepiezas" id="submitsetdepiezas" value="elegir" class="sectionlist__submit">
+          </form>
+        </article>
+        <article>
+          <h3>Marionetas</h3>
+          <h4>$2500</h4>
+          <ul>
+            <li>Set de marionetas de teatro</li>
+            <li>Set de animalitos</li>
+            <li>Set de trabajadores</li>
+            <li>Set de princesas</li>
+          </ul>
+          <form action="" method="post" target="_blank">
+            <input type="submit" name="submitmarionetas" id="submitmarionetas" value="elegir" class="sectionlist__submit">
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer id="footer">
+      <section class="footericons">
+      <img src="https://img.icons8.com/office/40/000000/facebook-new.png" alt="icon">
+      <img src="https://img.icons8.com/dusk/40/000000/telegram-app.png" alt="icon">
+      <img src="https://img.icons8.com/office/40/000000/instagram-new.png" alt="icon">
+      </section>
+      <section class="footerinfo">
+        <ul>
+          <li>Email: asd@asd.com</li>
+          <li>Telefono: 012-3456-7890</li>
+          <li>Direccion: Balcarce 50, C.A.B.A.</li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 67.5%;
+  font-family: Monaco, sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+header{
+  background-color: #EBDE98;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo{
+  width: 60vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-family: tahoma;
+  color: #674DFF;
+}
+
+#header-img{
+  margin-right: 30px;
+}
+
+#titulo_logo{
+  font-size: 30;
+  letter-spacing: 2px;
+  font-family: Pacifico;
+  text-shadow: 0 0 35px #674DFF;
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 35vw;
+  list-style: none;
+  font-size: 18px;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #674DFF;
+  padding: 10px;
+  font-family: Edu VIC WA NT Beginner;
+  font-size: 1.25em;
+}
+
+.nav-link:hover{
+  background-color: #674DFF;
+  color: white;
+  border-radius: 5px
+}
+
+main{
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  font-family: Edu VIC WA NT Beginner;
+}
+
+.encabezado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.encabezado__text{
+  padding: 2vh;
+  font-size: 2.5em;
+  color: #674DFF;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+}
+
+#email{
+  padding: 0.5vh;
+  width: 30vw;
+  border-radius: 3px;
+  border-color: #674DFF;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+#submit{
+  padding: 10px;
+  margin-top: 1vh;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #674DFF;
+  border: none;
+  font-family: Edu VIC WA NT Beginner;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+.sectiontipos{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.contenedor{
+  display: flex;
+  padding: 5vh 5vw;
+  align-items: center;
+}
+
+.sectiontipos__contenedor__icon{
+  width: 15%;
+}
+
+.sectiontipos__contenedor__text{
+  width:85%;
+}
+
+.sectiontipos__contenedor__text__subtitulo{
+  font-size: 2em;
+  color: #674DFF;
+}
+
+.sectiontipos__contenedor__text p{
+  font-size: 1.5em;
+}
+
+#sectionvideo{
+padding: 5em;
+}
+
+#video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 315px;
+    border: solid 10px #674DFF;
+    border-radius: 5px;
+}
+
+.sectionlist{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectionlist article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px #EBDE98;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.sectionlist article h3{
+  font-size: 2em;
+  color: #674DFF;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #EBDE98;
+  width: 100%;
+  height: 33%;
+}
+
+.sectionlist article h4{
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.sectionlist article ul{
+  list-style: none;
+}
+
+.sectionlist article ul li{
+  font-size: 1.3em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.sectionlist__submit{
+  padding: 5px;
+  margin-top: 1vh;
+  margin-bottom: 10px;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #674DFF;
+  border: none;
+  font-family: Edu VIC WA NT Beginner;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+#footer{
+  background-color: #EBDE98;
+  display: flex;
+  font-family: Edu VIC WA NT Beginner;
+  padding: 10px;
+  align-items: center;
+}
+
+.footericons{
+  width: 75%
+}
+
+.footericons img{
+  margin-left: 10px;
+}
+
+.footerinfo{
+  width: 25%;
+}
+
+.footerinfo ul li {
+  font-size: 14px;
+}
+
+@media (max-width: 600px){
+  header{
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+}
+
+** end of undefined **
+

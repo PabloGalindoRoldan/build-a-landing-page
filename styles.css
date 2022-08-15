@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 67.5%;
+  font-family: Monaco, sans-serif;
+  background-color: rgb(240, 240, 240);
+}
+
+header{
+  background-color: #EBDE98;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo{
+  width: 60vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-family: tahoma;
+  color: #674DFF;
+}
+
+#header-img{
+  margin-right: 30px;
+}
+
+#titulo_logo{
+  font-size: 30;
+  letter-spacing: 2px;
+  font-family: Pacifico;
+  text-shadow: 0 0 35px #674DFF;
+}
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 35vw;
+  list-style: none;
+  font-size: 18px;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #674DFF;
+  padding: 10px;
+  font-family: Edu VIC WA NT Beginner;
+  font-size: 1.25em;
+}
+
+.nav-link:hover{
+  background-color: #674DFF;
+  color: white;
+  border-radius: 5px
+}
+
+main{
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  font-family: Edu VIC WA NT Beginner;
+}
+
+.encabezado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.encabezado__text{
+  padding: 2vh;
+  font-size: 2.5em;
+  color: #674DFF;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+}
+
+#email{
+  padding: 0.5vh;
+  width: 30vw;
+  border-radius: 3px;
+  border-color: #674DFF;
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+#submit{
+  padding: 10px;
+  margin-top: 1vh;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #674DFF;
+  border: none;
+  font-family: Edu VIC WA NT Beginner;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+.sectiontipos{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.contenedor{
+  display: flex;
+  padding: 5vh 5vw;
+  align-items: center;
+}
+
+.sectiontipos__contenedor__icon{
+  width: 15%;
+}
+
+.sectiontipos__contenedor__text{
+  width:85%;
+}
+
+.sectiontipos__contenedor__text__subtitulo{
+  font-size: 2em;
+  color: #674DFF;
+}
+
+.sectiontipos__contenedor__text p{
+  font-size: 1.5em;
+}
+
+#sectionvideo{
+padding: 5em;
+}
+
+#video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 315px;
+    border: solid 10px #674DFF;
+    border-radius: 5px;
+}
+
+.sectionlist{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectionlist article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 2px #EBDE98;
+  border-radius: 5px;
+  width: 25%;
+}
+
+.sectionlist article h3{
+  font-size: 2em;
+  color: #674DFF;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #EBDE98;
+  width: 100%;
+  height: 33%;
+}
+
+.sectionlist article h4{
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.sectionlist article ul{
+  list-style: none;
+}
+
+.sectionlist article ul li{
+  font-size: 1.3em;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.sectionlist__submit{
+  padding: 5px;
+  margin-top: 1vh;
+  margin-bottom: 10px;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #674DFF;
+  border: none;
+  font-family: Edu VIC WA NT Beginner;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+#footer{
+  background-color: #EBDE98;
+  display: flex;
+  font-family: Edu VIC WA NT Beginner;
+  padding: 10px;
+  align-items: center;
+}
+
+.footericons{
+  width: 75%
+}
+
+.footericons img{
+  margin-left: 10px;
+}
+
+.footerinfo{
+  width: 25%;
+}
+
+.footerinfo ul li {
+  font-size: 14px;
+}
+
+@media (max-width: 600px){
+  header{
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+}
